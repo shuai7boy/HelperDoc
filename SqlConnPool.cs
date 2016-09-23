@@ -7,7 +7,7 @@ using System.Web;
 
 namespace 连接池
 {
-    /// <summary>
+    /// <summary>     
     /// 连接池帮助类
 	///优点：减少了和数据库的频繁链接和端口，提高了效率
 	///缺点：一直开着，浪费了性能
