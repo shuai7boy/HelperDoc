@@ -123,7 +123,7 @@ namespace 连接池
         {
             //当链接处于打开状态时关闭，然后再打开，避免有时候数据不能及时更新
             if (SqlDrConn.State == ConnectionState.Open)
-            {
+            { 
                 SqlDrConn.Close();
             }
             try
