@@ -75,7 +75,7 @@ namespace 连接池
                 }
                 return null;
             }
-            catch (Exception ex)
+            catch (Exception ex) 
             {
                 string tsMes=ex.Message;
                 return null;
