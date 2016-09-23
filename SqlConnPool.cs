@@ -24,7 +24,7 @@ namespace 连接池
         private const int Conn_Lifetime = 15;//设置连接的生命周期
         private  string ConnString = "";//链接字符串
         private static SqlConnection SqlDrConn = null;//链接对象
-        public  DbConn()//构造函数
+        public  DbConn()//构造函数 
         {
             ConnString = GetConnString();
             SqlDrConn = new SqlConnection(ConnString);
